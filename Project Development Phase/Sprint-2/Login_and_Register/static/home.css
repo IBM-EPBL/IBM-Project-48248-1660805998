@@ -1,0 +1,152 @@
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 15%;
+    width: 100%;
+    height: 85%;
+}
+
+.content {
+    position: relative;
+}
+
+.animation_class {
+    padding-top: 250px;
+    padding-left: 100px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+}
+
+@keyframes example {
+    0%  {right: 0%; top: 0px;}
+    25% {right: 50%; top: 0px;}
+    50% {right: 50%; top: 0px;}
+    75% {right: 0%; top: 0px;}
+    100% {right: 0%; top: 0px;}
+}
+
+.navBar {
+    overflow: hidden;
+    padding: 14px 30px;
+    background-color: #62d2a2;
+}
+
+.indexNavBar {
+    overflow: hidden;
+    padding: 14px 30px;
+    background-color:#62d2a2;
+    height: 40px;
+}
+
+.logo {
+    color: white;
+    padding-left: 50px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+.navBar .button1 {
+    float: left;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: cursive;
+}
+
+.navBar .button2 {
+    float: right;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: cursive;
+}
+
+.navBar a :hover {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.textField {
+    margin-top: 30px;
+}
+
+/* input, select {
+    height: 30px;
+    width: 500px;
+    color: black;
+    text-align: center;
+} */
+
+body {
+    margin: 0 auto;
+}
+
+.loginComponent {
+    width: 500px;
+    height: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #d8d6d6;
+    padding-bottom: 10px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+select {
+    width: 415px;
+    height: 45px;
+    padding-left: 10px;
+    color: grey;
+}
+
+input[type="submit"] {
+    width: 420px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: #62d2a2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    text-shadow: 2px 2px #d8d6d6;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
