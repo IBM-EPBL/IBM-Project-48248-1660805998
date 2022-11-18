@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Page</title>
+    <link rel = "stylesheet" href="../static/home.css" >
+</head>
+<body>
+    <div class="navBar" style="height: 50px; font-family: cursive; font-size: 25px; color: white">
+        <center>
+            Chronic Kidney Disease
+        </center>
+    </div>
+    <center>
+        <img src="https://i.ibb.co/YdjNg7Y/result.jpg" alt="result" border="0" /><br/>
+            {% if predicted_text == 1 %}
+                <h2 id="result_function"> Affected by CKD </h2> 
+            {% else %}
+                <h2 id="result_function"> Not Affected by CKD </h2>
+            {% endif %}
+        </h2>
+    </center>
+</body>
+</html>
